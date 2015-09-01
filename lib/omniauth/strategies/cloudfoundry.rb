@@ -132,7 +132,7 @@ module OmniAuth
 
       info do
         prune!({
-          :name       => raw_info["name"],
+          :name       => raw_info["user_name"],
           :email      => raw_info["email"],
           :first_name => raw_info["given_name"],
           :last_name  => raw_info["family_name"]
